@@ -1,0 +1,11 @@
+{
+    "Screen Object": "screen_tbody",
+    "Internationalization API": "intl_tbody",
+    "Navigator Object": "navigator_tbody",
+    "Navigator_userAgentData": "uadata_tbody",
+    "Navigator Plugins": "plugins_tbody",
+    "Network Information API": "network_tbody",
+    "Web Bluetooth API": "bluetooth_tbody",
+    "Web Audio API": "audio_tbody",
+    "SpeechSynthesis": "speech_tbody"
+}

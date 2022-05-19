@@ -1,0 +1,44 @@
+{
+    "Chrome": {
+        "PV1": {
+            "raw_average": 0,
+            "pointsystem_average": 0,
+            "test_results": [],
+            "raw_results": []
+        },
+        "PV2": {
+            "raw_average": 0,
+            "pointsystem_average": 0,
+            "test_results": [],
+            "raw_results": []
+        }
+    },
+    "Edge": {
+        "PV1": {
+            "raw_average": 0,
+            "pointsystem_average": 0,
+            "test_results": [],
+            "raw_results": []
+        },
+        "PV2": {
+            "raw_average": 0,
+            "pointsystem_average": 0,
+            "test_results": [],
+            "raw_results": []
+        }
+    },
+    "Firefox": {
+        "PV1": {
+            "raw_average": 0,
+            "pointsystem_average": 0,
+            "test_results": [],
+            "raw_results": []
+        },
+        "PV2": {
+            "raw_average": 0,
+            "pointsystem_average": 0,
+            "test_results": [],
+            "raw_results": []
+        }
+    }
+}

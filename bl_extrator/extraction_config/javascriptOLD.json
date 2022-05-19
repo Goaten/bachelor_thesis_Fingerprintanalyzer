@@ -1,0 +1,66 @@
+{
+"Screen Object": [
+    ["width", "js_width"],
+    ["height", "js_height"],
+    ["availWidth", "js_availWidth"],
+    ["availHeight", "js_availHeight"],
+    ["colorDepth", "js_colorDepth"],
+    ["pixelDepth", "js_pixelDepth"],
+    ["left", "js_left"],
+    ["top", "js_top"],
+    ["availTop", "js_availTop"],
+    ["availLeft", "js_availLeft"],
+    ["mozOrientation", "js_mozOrientation"],
+    ["orientation type", "js_orientation_type"],
+    ["orientation angle", "js_orientation_angle"],
+    ["devicePixelRatio", "js_devicePixelRatio"],
+    ["innerWidth", "js_innerWidth"],
+    ["innerHeight", "js_innerHeight"],
+    ["outerWidth", "js_outerWidth"],
+    ["outerHeight", "js_outerHeight"],
+    ["clientWidth", "js_clientWidth"],
+    ["clientHeight", "js_clientHeight"]
+],
+"Date/Time": [
+    ["System Time", "js_date"],
+    ["toLocaleString", "js_localeString"],
+    ["toLocaleFormat", "js_localeFormat"]
+],
+"Internationalization API": [
+    ["DateTimeFormat", "js_DateTimeFormat"],
+    ["hourCycle", "js_hourCycle"],
+    ["locale", "js_locale"],
+    ["calendar", "js_calendar"],
+    ["numberingSystem", "js_numberingSystem"],
+    ["timeZone", "js_timeZone"],
+    ["year", "js_year"],
+    ["month", "js_month"],
+    ["day", "js_day"]
+],
+"Navigator Object": [
+    ["userAgent", "js_userAgent"],
+    ["appVersion", "js_appVersion"],
+    ["appName", "js_appName"],
+    ["appCodeName", "js_appCodeName"],
+    ["product", "js_product"],
+    ["productSub", "js_productSub"],
+    ["vendor", "js_vendor"],
+    ["vendorSub", "js_vendorSub"],
+    ["buildID", "js_buildID"],
+    ["platform", "js_platform"],
+    ["oscpu", "js_oscpu"],
+    ["hardwareConcurrency", "js_hardwareConcurrency"],
+    ["deviceMemory", "js_deviceMemory"],
+    ["language", "js_language"],
+    ["languages", "js_languages"],
+    ["onLine", "js_onLine"],
+    ["doNotTrack", "js_doNotTrack"],
+    ["cookieEnabled", "js_cookieEnabled"],
+    ["maxTouchPoints", "js_maxTouchPoints"],
+    ["activeVRDisplays", "js_activeVRDisplays"],
+    ["webdriver", "js_webdriver"]
+],
+"Navigator_userAgentData": [
+    ["API Status", "js_uadata"]
+]
+}

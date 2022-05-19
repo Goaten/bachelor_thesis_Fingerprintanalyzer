@@ -1,0 +1,164 @@
+{
+ "pointsystem": {
+   "group 1": 25,
+   "group 2": 5,
+   "group 3": 1,
+   "bonus": 1
+ },
+ "Canvas Fingerprinting": {
+  "Signature": ["group 1", []]
+ },
+ "WebGL Report": {
+  "WebGL Report Hash": ["group 1", []],
+  "WebGL Image Hash": ["group 1", []]
+ },
+ "Font Fingerprinting": {
+  "Fonts Enumeration": ["group 1", []],
+  "Unicode Glyphs": ["group 2", []]
+ },
+ "Features Detection": {
+  "Features Hash": ["group 2", []]
+ },
+ "Client Rects": {
+  "Full Hash": ["group 2", []]
+ },
+ "HTTP Headers": {
+  "Request": [0, []],
+  "Host": [0, []],
+  "Sec-CH-UA": [0, []],
+  "Sec-Ch-Ua-Mobile": [0, []],
+  "Sec-Ch-Ua-Platform": [0, []],
+  "User-Agent": ["group 1", ["Navigator Object;userAgent", "Navigator Object;appVersion"]],
+  "Accept": ["group 2", []],
+  "Accept-Language": ["group 2", []],
+  "Accept-Encoding": ["group 2", []],
+  "Referer": ["group 2", []],
+  "DNT": ["group 3", []],
+  "Upgrade-Insecure-Requests": ["group 3", []],
+  "Sec-Fetch-Dest": [0, []],
+  "Sec-Fetch-Mode": [0, []],
+  "Sec-Fetch-Site": [0, []],
+  "Sec-Fetch-User": [0, []],
+  "Sec-CH-UA-Mobile": [0, []],
+  "Sec-CH-UA-Platform": [0, []],
+  "Sec-Gpc": ["group 3", []],
+  "Cache-Control": [0, []],
+  "TE": [0, []],
+  "Cookie": [0, []]
+ },
+ "Screen Object": {
+  "width": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "height": ["group 2", ["Screen Object;width", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "availWidth": ["group 2", ["Screen Object;height", "Screen Object;width","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "availHeight": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;width","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "colorDepth": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;width","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "pixelDepth": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;width","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "left": [0, []],
+  "top": [0, []],
+  "availTop": [0, []],
+  "availLeft": [0, []],
+  "mozOrientation": [0, []],
+  "orientation.type": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;width","Screen Object;orientation.angle","Screen Object;window.devicePixelRatio"]],
+  "isExtended": [0, []],
+  "orientation.angle": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;width","Screen Object;window.devicePixelRatio"]],
+  "window.devicePixelRatio": ["group 2", ["Screen Object;height", "Screen Object;availWidth","Screen Object;availHeight","Screen Object;colorDepth","Screen Object;pixelDepth","Screen Object;orientation.type","Screen Object;orientation.angle","Screen Object;width"]],
+  "window.innerWidth": ["group 2", ["Screen Object;window.innerHeight","Screen Object;window.outerWidth","Screen Object;window.outerHeight","Screen Object;div.clientWidth","Screen Object;div.clientHeight"]],
+  "window.innerHeight": ["group 2", ["Screen Object;window.innerWidth","Screen Object;window.outerWidth","Screen Object;window.outerHeight","Screen Object;div.clientWidth","Screen Object;div.clientHeight"]],
+  "window.outerWidth": ["group 2", ["Screen Object;window.innerHeight","Screen Object;window.innerWidth","Screen Object;window.outerHeight","Screen Object;div.clientWidth","Screen Object;div.clientHeight"]],
+  "window.outerHeight": ["group 2", ["Screen Object;window.innerHeight","Screen Object;window.outerWidth","Screen Object;window.innerWidth","Screen Object;div.clientWidth","Screen Object;div.clientHeight"]],
+  "div.clientWidth": ["group 2", ["Screen Object;window.innerHeight","Screen Object;window.outerWidth","Screen Object;window.outerHeight","Screen Object;window.innerWidth","Screen Object;div.clientHeight"]],
+  "div.clientHeight": ["group 2", ["Screen Object;window.innerHeight","Screen Object;window.outerWidth","Screen Object;window.outerHeight","Screen Object;div.clientWidth","Screen Object;window.innerWidth"]]
+ },
+ "Internationalization API": {
+  "DateTimeFormat": [0, []],
+  "hourCycle": ["group 3", []],
+  "locale": ["group 2", []],
+  "calendar": ["group 2", []],
+  "numberingSystem": ["group 2", []],
+  "timeZone": ["group 2", []],
+  "year": ["group 2", ["Internationalization API;month", "Internationalization API;day"]],
+  "month": ["group 2", ["Internationalization API;year", "Internationalization API;day"]],
+  "day": ["group 2", ["Internationalization API;year", "Internationalization API;month"]]
+ },
+ "Navigator Object": {
+  "userAgent": ["group 1", ["HTTP Headers;User-Agent", "Navigator Object;appVersion"]],
+  "appVersion": ["group 1", ["HTTP Headers;User-Agent", "Navigator Object;userAgent"]],
+  "appName": [0, []],
+  "appCodeName": [0, []],
+  "appMinorVersion": [0, []],
+  "product": [0, []],
+  "productSub": [0, []],
+  "vendor": ["group 3", []],
+  "vendorSub": [0, []],
+  "buildID": [0, []],
+  "platform": ["group 2", ["Navigator Object;oscpu"]],
+  "cpuClass": [0, []],
+  "oscpu": ["group 2", ["Navigator Object;platform"]],
+  "hardwareConcurrency": ["group 2", []],
+  "deviceMemory": ["group 2", []],
+  "language": ["group 2", ["Navigator Object;languages"]],
+  "languages": ["group 2", ["Navigator Object;language"]],
+  "onLine": [0, []],
+  "doNotTrack": ["group 3", []],
+  "cookieEnabled": ["group 3", []],
+  "maxTouchPoints": ["group 2", []],
+  "activeVRDisplays": [0, []],
+  "webdriver": ["group 3", []],
+  "pdfViewerEnabled": ["group 3", []],
+  "wow64": [0, []]
+ },
+ "Navigator_userAgentData": {
+  "brands": [0, []],
+  "mobile": [0, []],
+  "platform": [0, []],
+  "platformVersion": [0, []],
+  "architecture": [0, []],
+  "bitness": [0, []],
+  "model": [0, []],
+  "uaFullVersion": [0, []],
+  "wow64": [0, []],
+  "fullVersionList": [0, []]
+ },
+ "Navigator Plugins": {
+  "plugins": [0, []],
+  "mimeTypes": [0, []]
+ },
+ "Network Information API": {
+  "type": [0, []],
+  "effectiveType": [0, []],
+  "downlink": [0, []],
+  "downlinkMax": [0, []],
+  "rtt": [0, []],
+  "saveData": [0, []]
+ },
+ "Web Bluetooth API": {
+  "Bluetooth Adapter": ["group 3", []]
+ },
+ "Web Audio API": {
+  "State": ["group 3", []],
+  "Sample Rate": ["group 2", []],
+  "Max Channel Count": ["group 2", []],
+  "Number of Inputs": ["group 2", []],
+  "Number of Outputs": ["group 2", []],
+  "Channel Count": ["group 2", []],
+  "Channel Count Mode": ["group 3", []],
+  "Channel Interpretation": ["group 3", []],
+  "FFT Size": ["group 2", ["Web Audio API;Frequency Bin Count"]],
+  "Frequency Bin Count": ["group 2", ["Web Audio API;FFT Size"]],
+  "Min Decibels": ["group 2", []],
+  "Max Decibels": ["group 2", []],
+  "Smoothing Time Constant": ["group 2", []]
+ },
+ "SpeechSynthesis": {
+  "Speech Voices": ["group 2", []]
+ },
+ "WebRTC Leak": {
+  "Local IP Address": ["group 3", []],
+  "Public IP Address": [0, []],
+  "Media Devices: Quantity": ["group 2", []],
+  "Media Devices: kind": [0, []],
+  "Media Devices: label": ["group 3", []],
+  "Media Devices: deviceId": ["group 1", []],
+  "Media Devices: groupId": [0, []]
+ }
+}

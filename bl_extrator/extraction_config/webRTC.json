@@ -1,0 +1,5 @@
+{
+    "Local IP Address": "rtc_local",
+    "Public IP Address": "rtc_ipv4",
+    "Media Devices": "rtc_device_ids"
+}
